@@ -63,8 +63,19 @@ postfix（后缀）的使用； ###.##
   if(user != null){ ... } <= user.nn 【not null】
   
 ===============================  
-  
-	 
+alt + Enter；
+
+作用：智能推测你可能想要做的事情...
+Action：Show Intention Action；
+
+用法：
+1 自动生成缺少的方法；
+2 对代码进行重构——list replace；
+3 对拼接的字符串进行快速格式化——replace with String.format(###);
+4 对字符串拼接进行优化———StringBuilder
+5 实现接口——在接口名上alt + Enter,即可提示创建类
+6 单词拼写——userneam[自动给出建议]
+7 导包——List
 	 
 	 
 	 
