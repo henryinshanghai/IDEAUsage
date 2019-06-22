@@ -1,0 +1,79 @@
+任务：在项目之间进行跳转；
+手段：ctrl + alt + [/]
+Action: previous Project Window
+
+任务：在（刚刚编辑过的）文件之间跳转；
+手段：ctrl + E；
+Action:recent files
+
+任务：查找某个action的快捷键；
+手段：ctrl + shift + A
+Action:find action
+
+任务：在刚刚编辑过的文件之间进行跳转；
+手段：alt + shift + C;
+Action:recent changed file
+
+任务：跳转回上一次编辑的位置；
+手段：ctrl + shift + 回退
+Action:last edit position;
+
+任务：跳转回上一次浏览/查看的位置；
+手段：ctrl + alt + 左/右
+Action： backward/forward;
+
+编辑是要有改变，查看则只需要光标停留就可以；
+
+========
+任务：利用书签进行跳转；
+书签应用：在浏览别人的代码时做一些标记；以便回头查看，类似于看书时使用的书签
+Action：prevois/next bookmarks
+手段：ctrl + 助记符（1、2、3...） 
+
+任务2 ：为某一行创建书签；
+手段：光标定位到指定的行，按下F11
+Action：toggle bookmarks； 点击同一按键来切换书（创建/取消）签
+
+任务3：为某一行创建有"助记符的书签"（方便快速跳转到指定的书签）
+Action:toggle bookmarks with mnemonic(助记符)
+手段：ctrl + F11
+结果：得到一个有标识符的书签；
+
+说明：书签对于“阅读遗留代码”的情况会非常有用；
+=======
+任务：把一些重要的东西(类/函数)收藏起来；
+Action:add to Favorites;
+手段：alt + shift + F;
+
+======
+跳转插件：EmacsIDEA;
+作用：快速跳转到指定的位置（这个位置没有编辑过/查看过）；
+特征：手不需要离开键盘；
+用法：
+  1 按下ctrl + j（触发插件的跳转功能）;
+  2 按下需要查找的单词的首字母；
+  3 根据页面中的显示标识按下按键，跳转到需要的地方；
+  
+====
+任务：在编辑区与文件区之间进行跳转；
+1 从编辑区跳转到文件区；
+手段：alt + 1(区域编号)；
+2 从文件区/视图区跳转到编辑区；
+手段：Esc
+
+====
+使用Vim进行多窗口编辑；
+任务：在多个窗口之间进行跳转；
+手段：
+  1 ctrl+w（声明要执行跳转了）；
+  2 表示跳转方向的按键；
+
+
+
+
+
+
+
+
+
+
