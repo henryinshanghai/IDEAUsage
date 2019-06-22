@@ -1,0 +1,22 @@
+对需要的内容进行搜索————用最少地记忆搜索到需要的内容；
+
+任务：在项目中搜索类；
+手段：ctrl + N；
+Action:Class
+
+任务：在项目所依赖的jar包中进行搜索；
+手段：
+  1 ctrl + N；
+  2 勾选“include none project item”
+
+任务：在项目中搜索不是.java的文件；
+手段：ctrl + shift + N;
+同上
+
+任务：在项目中搜索指定的符号（函数/属性）
+手段：ctrl + alt + shift + N;
+Action:Symbol
+
+任务：在项目中搜索指定的字符串；
+手段：ctrl + shift + F
+Action:find in Path;
