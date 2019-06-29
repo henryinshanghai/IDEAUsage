@@ -1,0 +1,65 @@
+startup 
+① 支持的语言
+    现代应用程序的开发涉及使用多种语言，工具和技术。IntelliJ IDEA被设计为Java IDE，但它可以使用插件进行扩展，以支持几乎任何流行语言的开发。
+    对于其中一些语言，JetBrains提供单独的IDE.
+    这些IDE基于IntelliJ平台，仅包含特定于该语言的功能。
+    
+    IntelliJ IDEA中的“编码帮助”包括：
+    ~ “语法和错误突出显示”以维护绿色代码
+    ~ 用于创建存根类，脚本等的“文件模板”
+    ~ “实时模板”将缩写扩展为复杂的代码构造
+    ~ “代码补全”以根据上下文补全类，方法，字段，参数和其他实体的名称
+    ~ “代码生成”以生成特定于语言的代码构造
+    ~ “想要进行的操作和快速修复”以优化您的代码
+    ~ “代码重构”用于在整个代码库中重命名，移动，复制和删除实体
+    ~ “导入助手”用来导入缺失的库
+    ~ 用于在字符串文字、标签或属性中使用受支持语言的“语言注入”
+    ~ 用于查看API文档，方法中的参数名称和提示、静态表达式数据等的“代码参考信息”
+    ~ “代码折叠”以隐藏与当前任务无关的代码块
+    ~ “代码格式化”用来根据您的编码风格格式化和排列代码
+    
+    除了“编码帮助”外，IntelliJ IDEA还支持
+    用于构建，运行，测试和部署“应用程序” 的特定语言的工具。
+    
+    JVM语言
+    
+    使用IntelliJ IDEA开发“Java和其他可以编译成JVM字节码的流行语言”的应用程序。
+    Java SE，Java EE，JavaFX和J2ME
+    科特林
+    斯卡拉
+    Groovy
+    AspectJ
+   
+=======================   
+其他语言
+如果您的项目包含其他语言的某些代码，请使用插件扩展IntelliJ IDEA语言支持。
+但是，如果它是您的主要开发语言，请考虑使用专用IDE。
+
+Python (PyCharm)
+
+JavaScript (WebStorm)
+
+Ruby (RubyMine)
+
+PHP (PhpStorm)
+
+SQL (DataGrip)
+
+Go (GoLand)
+
+TypeScript and CoffeeScript
+
+Velocity and FreeMarker
+XPath and XSLT
+XML and XSL
+HTML and XHTML
+Markdown
+JSON
+Thymeleaf
+Stylesheets (CSS, Less, Sass)
+Dart
+Erlang
+
+IntelliJ IDEA不正式支持C / C ++，但您可以使用CLion。
+
+【最后修改日期：2019年6月20日】
