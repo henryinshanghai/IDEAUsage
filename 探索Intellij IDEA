@@ -1,0 +1,137 @@
+用户界面
+
+编辑器：###
+免分心模式
+项目工具窗口 VS. 导航栏
+
+快速搜索：###
+
+====
+编辑器快捷键：
+创建新方法/类...  => alt + insert
+为指定代码创建包围结构 => ctrl + alt + T
+高亮显示一个symbol的使用处 => ctrl + F7
+
+选择指定的代码片段 =》 ctrl + w/ctrl + shift + w
+重复选择多个/取消重复选择的多个 =》 alt + j/alt + shift + J
+========
+代码补全
+ctrl + shift + enter 语句补全
+后缀补全 ###.@@ @@会被自动添加到模板中
+========
+导航
+当前文件的结构 =》 ctrl + F12
+在选定的工具窗口中进行查找 =》 alt + F1
+显示层级结构 =》 ctrl + H
+显示UML类图 =》 ctrl + alt + U
+=========
+快速弹出窗口
+Documentation   Ctrl+Q    
+
+Quick definition    Ctrl+Shift+I    
+
+Show usages  Ctrl+Alt+F7   
+
+Show implementation  Ctrl+Alt+B
+=========
+重构基础
+
+操作    快捷键
+改名    按住Shift + F6
+提取变量    Ctrl + Alt + V（variables）
+提取字段    按Ctrl + Alt + F（field）
+提取常量    Ctrl + Alt + C（constant）
+提取方法    按Ctrl + Alt + M（method）
+
+节省时间的神器是在Extract重构的帮助下“提取字符串表达式的一部分”的能力。
+只需选择一个字符串片段并应用重构，用引入的常量或变量替换所有选定的片段处即可。
+
+===========
+找到###被引用的地方 => alt + F7
+查找纯文字被引用的地方 => ctrl + shift + F
+
+===========
+代码静态审查
+
+大多数检查不仅告诉您问题所在，还提供快速解决方案以立即处理。
+按Alt + Enter选择快速修复。
+
+在审查出的不同事故点间进行导航 =》 F2/shift+F2
+
+==========
+代码样式 + 格式化
+样式：File | Settings | Editor | Code Style for Windows and Linux 
+格式化快捷键：
+操作    快捷键
+重新格式化代码   Ctrl + Alt + L
+自动缩进指定行   按Ctrl + Alt + I
+优化导入的包    按Ctrl + Alt + O
+
+===========
+版本管理控制基础
+从一个VCS中迁出一个项目 => check out from version control
+快捷操作菜单 =》 alt + `
+
+版本控制工具窗口  ALT + 9
+VCS操作弹出窗口   Alt +`
+提交更改    按Ctrl + K
+更新项目    按Ctrl + T
+推送提交    按Ctrl + Shift + K
+
+分支：
+要在分支上执行操作，请从VCS主菜单/上下文菜单/VCS操作弹出窗口或状态栏右侧的窗口小部件中
+选择分支。
+
+请注意，对于多个存储库，IntelliJ IDEA会同时在所有分支上执行所有VCS操作，因此您无需手动切换它们。
+当您需要存储一些本地更改而不将它们提交到存储库时，shelve，stashes和patches可以帮助您。
+然后，您可以切换到文件的存储库版本，然后稍后再回到您的更改。
+
+===========
+Make
+保存项目后，需要按下ctrl + F9对项目进行重新编译；
+
+===========
+运行于调试
+
+运行 shift + F10
+调试  shift + F9
+
+行动    捷径
+切换断点    按Ctrl + F8
+踏入      F7
+聪明的步入   按住Shift + F7
+过来    F8
+走出去   按住Shift + F8
+恢复    F9
+评估表达    Alt + F8
+
+重新加载更改和热交换＃
+有时，您需要在不关闭进程的情况下在代码中插入细微更改。
+由于Java VM具有HotSwap功能，因此当您调用Make时，IntelliJ IDEA会自动处理这些情况。
+
+====================================================
+应用服务器
+
+要将应用程序部署到服务器：
+  ·通过选择File |来配置工件项目结构|工件（为Maven和Gradle项目自动完成）。
+  ·单击“设置/首选项”对话框的“应用程序服务器”页面，配置应用程序
+  ·通过选择Run |配置运行配置编辑配置，然后指定要部署的工件和要部署它们的服务器。
+
+=======
+构建工具
+maven/gradle
+
+======
+从eclipse/netbeans迁移到IDEA
+
+
+
+
+
+
+
+
+
+
+
+
