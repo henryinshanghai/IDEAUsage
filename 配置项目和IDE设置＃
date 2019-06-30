@@ -1,0 +1,52 @@
+在IntelliJ IDEA中，您可以在两个级别（项目级别和IDE级别）上配置“设置和结构”。
+  项目级设置和结构＃
+    项目级别设置和结构仅应用于当前项目。
+    这些设置与.idea目录中的其他项目文件一起存储。
+  如果您的项目受版本控制，建议您在版本控制下存储“具有项目特定设置（项目文件夹中的.idea文件夹）”的XML文件。
+  例外是workspace.xml和tasks.xml，它们存储的是用户- 特定设置。
+  
+  您可以参考“通过VCS共享项目设置”（超链接）以查看应忽略的内容。
+  
+  访问项目级设置＃
+    选择文件|设置（Windows和Linux），或IntelliJ IDEA |首选项（macOS）。
+    或者，按Ctrl + Alt + S。或使用工具栏上的图标🔧。
+    
+    在“设置/首选项”对话框中，项目级设置标有图标📄。
+    
+  访问项目级结构＃
+    选择文件|项目结构。
+    或者，按Ctrl + Shift + Alt + S，或单击工具栏上的图标🏗。  
+    
+================
+IDE级（全局）设置和结构＃
+  IDE级别（全局）设置和结构将应用于“所有新创建的项目”。
+  IDE级别“设置列表”包含的选项较少，
+  但您可以更改编辑器设置，创建自定义范围，配置检查，设置VCS特定设置等。
+  
+  如果要在现有项目之间[共享IDE设置]，可以使用Settings Repository或Settings Sync插件。
+  您还可以将设置[导出到]ZIP存档，然后将其导入其他IDE实例。
+  但请注意，如果您已使用Settings Repository 或Settings Sync 插件，则导入设置可能无法正常工作。
+  
+  访问IDE级别设置＃
+    从主菜单中，选择File |Other Settings|Settings for New Projects(适用于Windows和Linux)
+    或File|Other Settings|Perferences for New Projects(macOS)。
+  
+  访问IDE级结构＃
+    从主菜单中，选择File |其他设置|新项目的结构。
+    
+========================
+恢复默认设置＃
+  要恢复IntelliJ IDEA默认设置，可以在IDE未运行时删除“配置目录”（idea.config.path）。
+  该目录位于：
+    <SYSTEM DRIVE>\Users\<USER ACCOUNT NAME>\.<PRODUCT><VERSION>（Windows）
+  更多信息，请参阅IDE用于存储设置，缓存，插件和日志的目录（超链接）
+========================
+监控IDE的性能
+  Activity Monitor是IntelliJ IDEA中的一项实验性功能。
+  
+如果出现性能问题，您可以使用活动监视器来跟踪各种子系统和插件消耗的CPU百分比。
+从主菜单中，选择“帮助”|活动监视器。
+它列出了目前正在消耗CPU的所有子系统和插件，并根据它们使用的CPU百分比来排列它们。 
+
+
+
